@@ -16,7 +16,7 @@ class App extends Component {
       type: 'GET_COUNT_OF_USERS',
     });
   }
-
+ 
   render() {
     // debugger;
     return (
@@ -34,7 +34,6 @@ class App extends Component {
 }
 
 const mapStateToProps = (state) => {
-  debugger;
   return { items: state.items }
 }
 
